@@ -3,6 +3,6 @@ services:
   app:
     build: .
     volumes:
-      - .:/app
+      - .:/home/docker/app
     ports:
       - '3000:3000'
